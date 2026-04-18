@@ -1,18 +1,24 @@
 {
+  "name": "rick-and-morty-explorer",
+  "version": "1.0.0",
+  "description": "Frontend explorer for the Rick and Morty API built with Alpine.js and Tailwind CSS.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./main.css -o ./final.css --watch",
+    "build": "tailwindcss -i ./main.css -o ./final.css --minify"
+  },
+  "keywords": [
+    "alpinejs",
+    "tailwindcss",
+    "rick-and-morty",
+    "frontend"
+  ],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@tailwindcss/cli": "^4.0.6"
   },
-  "name": "alpinejsapi",
-  "version": "1.0.0",
-  "main": "index.js",
   "devDependencies": {
     "tailwindcss": "^4.0.6"
-  },
-  "scripts": {
-    "tailwind": "tailwindcss -i ./main.css -o ./final.css --watch"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  }
 }
